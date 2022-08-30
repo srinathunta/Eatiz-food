@@ -1,0 +1,156 @@
+header.header {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5%;
+  align-items: center;
+}
+a.menu-item {
+  text-decoration: none;
+  margin: 0px 10px;
+  color: #2e266f;
+}
+.account {
+  display: flex;
+}
+.user {
+  position: relative;
+  margin-right: 10px;
+}
+.account img {
+  width: 30px;
+}
+.isonline {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background: #3fa2f7;
+  border: 0px;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+select.user-options {
+  background: transparent;
+  border: 0px;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .navigation-bar {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding-top: 10px;
+    justify-content: space-between;
+  }
+  .navigation-bar .menu__open__icon {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    width: 30%;
+    padding-left: 5%;
+  }
+  .navigation-bar .menu__open__icon svg {
+    color: #fe043c;
+  }
+  a.menu-item {
+    text-decoration: none;
+    margin: 0px 10px;
+    color: #2e266f;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .navigation-bar .logo {
+    width: 30%;
+  }
+  .navigation-bar .try-now {
+    width: 30%;
+    margin-left: auto;
+    text-align: end;
+    justify-content: end;
+  }
+  .navigation-bar .try-now a.trynow {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .navigation-slide {
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    background: #ffedde;
+    transition: all 1s;
+    top: 0;
+  }
+  .navigation-slide.open {
+    left: 0;
+    z-index: 999;
+  }
+  .navigation-slide.close {
+    left: -80%;
+  }
+  .menu__close__icon {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .menu__close__icon svg {
+    font-size: 30px;
+  }
+  .menu__close__icon a {
+    color: #fff;
+  }
+  .navigation-slide nav p {
+    margin-bottom: 20px;
+  }
+
+  .navigation-slide nav p a {
+    color: #fff;
+  }
+  .navigation-slide nav {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .account {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5%;
+  }
+  h1.slide-head {
+    font-size: 42px;
+  }
+  h2.react-reveal.p-bold.slide-sub-head.text-blue {
+    font-size: 32px;
+  }
+  .search-rest input.booking-input {
+    width: 200px;
+    padding: 10px 5px;
+  }
+  .search-rest button.booking-submit {
+    margin-left: -800px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .p-regular.slide-location {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  img.dotted-bg.slider-dotted1 {
+    width: 100px;
+  }
+  img.dotted-bg.slider-dotted2 {
+    width: 100px;
+  }
+  img.main-image {
+    width: 180px;
+  }
+  img.lettuce-bg {
+    width: 100px;
+  }
+}

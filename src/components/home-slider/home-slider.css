@@ -1,0 +1,98 @@
+section.slide {
+  background: linear-gradient(90deg, transparent 75%, #fe043c 25%);
+  position: relative;
+}
+.slide-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.slide-content {
+  width: 50%;
+}
+.slide-image.images {
+  position: relative;
+}
+img.dotted-bg.slider-dotted1 {
+  left: -10px;
+  top: 20px;
+}
+img.dotted-bg {
+  position: absolute;
+  z-index: -1;
+}
+img.dotted-bg.slider-dotted2 {
+  left: -10px;
+  bottom: 20px;
+}
+img.main-image {
+  position: relative;
+  z-index: 999;
+}
+img.lettuce-bg {
+  position: absolute;
+  top: -10%;
+  width: 200px;
+  left: 25%;
+}
+h1.slide-head {
+  font-size: 120px;
+  opacity: 0.1;
+  margin: 0px;
+  line-height: 60px;
+}
+h2.slide-sub-head {
+  font-size: 54px;
+  margin: 0px;
+}
+.search-rest {
+  margin: 20px 0px;
+}
+.search-rest input.booking-input {
+  padding: 20px 10px;
+  width: 500px;
+  border: 0px;
+  box-shadow: 0px 0px 15px 2px #ffedde;
+}
+.search-rest button.booking-submit {
+  padding: 15px 40px;
+  margin-left: -115px;
+  border-top-left-radius: 50px;
+  font-size: 18px;
+}
+.p-regular.slide-location {
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  background: #fe043c;
+  color: #fff;
+  padding: 10px 40px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.p-regular.slide-location svg {
+  margin-bottom: -6px;
+  margin-right: 5px;
+  font-size: 22px;
+}
+.slick-arrow.slick-prev {
+  bottom: 5%;
+  left: unset;
+  top: unset;
+  right: 10%;
+  z-index: 999;
+  color: #fff;
+  height: auto;
+  width: 45px;
+}
+.slick-arrow.slick-next {
+  bottom: 5%;
+  left: unset;
+  top: unset;
+  right: 5%;
+  z-index: 999;
+  color: #fff;
+  height: auto;
+  width: 45px;
+}

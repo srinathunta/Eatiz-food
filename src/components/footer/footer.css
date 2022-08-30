@@ -1,0 +1,90 @@
+section.footer {
+  position: relative;
+  overflow: hidden;
+}
+img.dotted-bg.booking-card-leaves {
+  width: 450px;
+  bottom: -5%;
+  left: -2%;
+}
+.footer-container {
+  display: flex;
+  text-align: center;
+  height: 90vh;
+  align-items: center;
+}
+.footer-content {
+  width: 100%;
+}
+p.footer-head {
+  font-size: 28px;
+  color: #273164;
+  line-height: 40px;
+}
+p.footer-subhead {
+  color: #273164;
+  font-size: 15px;
+  line-height: 28px;
+}
+.newsletter {
+  margin: 40px 0px;
+}
+input.newsletter-email {
+  width: 300px;
+  border-radius: 50px;
+  padding-left: 15px;
+  height: 40px;
+  border: 0px;
+}
+button.newsletter-submit {
+  height: 30px;
+  border: 0px;
+  border-radius: 50%;
+  width: 30px;
+  background: #fe043c;
+  color: #fff;
+  margin-left: -35px;
+  vertical-align: middle;
+}
+ul.footer-list {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+ul.footer-list li {
+  margin: 0px 10px;
+}
+ul.footer-list li a {
+  text-decoration: none;
+  color: #273164;
+}
+.footer-bottom {
+  text-align: right;
+}
+ul.footer-bottom-list {
+  display: flex;
+  padding-left: 0px;
+  justify-content: end;
+  list-style: none;
+}
+ul.footer-bottom-list li {
+  margin: 0px 10px;
+}
+ul.footer-bottom-list li a {
+  color: #212121;
+  font-size: 22px;
+}
+ul.footer-bottom-list li p {
+  margin: 0px 10px;
+}
+@media (max-width: 767px) {
+  img.dotted-bg.booking-card-leaves {
+    display: none;
+  }
+  ul.footer-list li {
+    margin: 0px 5px;
+  }
+}

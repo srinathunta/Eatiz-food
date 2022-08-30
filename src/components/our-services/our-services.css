@@ -1,0 +1,106 @@
+.services-grid {
+  display: grid;
+  grid-template-areas:
+    "meeting booking scooter"
+    "food dish scooter";
+  grid-column-gap: 20px;
+  background-image: url("../../images/services-dotted-bg.png");
+  padding: 40px 5%;
+}
+.services-grid div {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.meeting {
+  grid-area: meeting;
+}
+.booking {
+  grid-area: booking;
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+.booking p {
+  margin: 10px;
+  margin-left: 20px;
+}
+.scooter {
+  grid-area: scooter;
+}
+.food {
+  grid-area: food;
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+.dish {
+  grid-area: dish;
+  animation-fill-mode: unset !important;
+}
+.dark-bg {
+  background: #ffedde;
+}
+section.our-services img {
+  width: 100px;
+}
+.booking hr.big-red {
+  width: 25px;
+}
+.booking hr.small-red {
+  width: 5px;
+}
+.scooter hr.big-red {
+  width: 100px;
+}
+.scooter hr.small-red {
+  width: 25px;
+}
+.food hr.big-red {
+  width: 35px;
+}
+.food hr.small-red {
+  width: 10px;
+}
+hr.big-red {
+  background: #fe043c;
+  border-color: #fe043c;
+  display: inline-block;
+  margin: 0px 5px;
+  margin-bottom: 1%;
+}
+hr.small-red {
+  background: #fe043c;
+  border-color: #fe043c;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 1%;
+  margin-right: 5px;
+}
+img.redrightarrow {
+  position: absolute;
+  left: -20%;
+}
+img.redleftarrow {
+  position: absolute;
+  right: -20%;
+}
+@media (max-width: 767px) {
+  .services-grid {
+    grid-template-areas:
+      "meeting booking"
+      "food dish"
+      "scooter scooter"
+      "scooter scooter";
+  }
+  .services-grid div {
+    margin-bottom: 20px;
+  }
+  img.redrightarrow {
+    width: 60px !important;
+  }
+  img.redleftarrow {
+    width: 60px !important;
+  }
+}

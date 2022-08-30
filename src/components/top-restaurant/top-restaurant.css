@@ -1,0 +1,128 @@
+.section-top {
+  display: flex;
+  margin: 40px 0px;
+}
+.restaurant-container {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+.food-cards {
+  display: flex;
+  padding: 60px 0px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.food-card {
+  width: 47%;
+  position: relative;
+  padding: 0px;
+}
+.food-card img {
+  width: 100%;
+  margin-bottom: -1%;
+}
+.food-card:hover .card-cont {
+  height: 50%;
+}
+
+.card-cont {
+  position: absolute;
+  bottom: 0%;
+  height: 60px;
+  overflow: hidden;
+  background: rgb(254 4 60 / 60%);
+  padding: 0px 20px;
+  transition: all 0.5s ease-in-out;
+}
+.card-cont p {
+  color: #fff;
+}
+
+p.card-head {
+  font-size: 22px;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+p.card-button a {
+  background: #fff;
+  padding: 10px 15px;
+  color: rgb(254 4 60 / 100%);
+  text-decoration: none;
+  border-bottom-right-radius: 10px;
+}
+img.dotted-bg.foddcard-dotted1 {
+  width: 70%;
+  left: -2%;
+  top: -10%;
+}
+img.dotted-bg.foddcard-dotted2 {
+  width: 70%;
+  right: -10%;
+  bottom: -10%;
+}
+.restaurant-seemore {
+  text-align: center;
+  width: 30%;
+}
+span.redline {
+  width: 60px;
+  height: 20px;
+  background: #fe043c;
+}
+hr.redline {
+  width: 15%;
+  display: inline-block;
+  background: #fe043c;
+  border-color: #fe043c;
+  margin-right: -5px;
+}
+.restaurant-seemore svg {
+  font-size: 18px;
+  color: #fe043c;
+}
+.restaurant-seemore a {
+  text-decoration: none;
+  color: #fe043c;
+}
+p.card-location svg {
+  font-size: 20px;
+  margin-bottom: -4%;
+}
+p.card-button svg {
+  margin-bottom: -2%;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .section-top {
+    display: block;
+  }
+  .head-left {
+    width: 100%;
+  }
+  .head-right {
+    width: 100%;
+  }
+  .restaurant-container {
+    display: block;
+    padding: 40px 5%;
+    overflow: hidden;
+  }
+  .food-cards {
+    width: 100%;
+    display: block;
+  }
+  .food-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .food-card:hover .card-cont {
+    height: 60%;
+  }
+  .restaurant-seemore {
+    display: none;
+  }
+}

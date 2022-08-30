@@ -1,0 +1,52 @@
+section.exciting-deals {
+  background-color: #ffedde;
+}
+.deals_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deals-right {
+  position: relative;
+}
+img.mobile {
+  position: relative;
+  z-index: 999;
+}
+.deals-right img.dotted-bg.booking-card-dotted1 {
+  left: -5%;
+  top: 20%;
+}
+.deals-right img.dotted-bg.booking-card-cabbage {
+  z-index: 0;
+  bottom: 20%;
+  left: -20%;
+}
+h3.deals-head {
+  color: #2e266f;
+  font-size: 48px;
+  line-height: 60px;
+  border-left: 15px solid #fe043c;
+  padding-left: 20px;
+}
+p.deals-subhead {
+  color: #707070;
+  padding-left: 35px;
+}
+.play-store {
+  margin: 20px 0px;
+  padding-left: 35px;
+}
+.play-store img {
+  width: 100px;
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .deals_container {
+    display: block;
+    padding: 20px 0px;
+  }
+  img.mobile {
+    width: 100%;
+  }
+}
